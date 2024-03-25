@@ -17,6 +17,9 @@
 #define MO_TOG(layer) &mo_tog layer layer //momentary on hold, toggle on tap
 
 / {
+        chosen {
+                zmk,matrix_transform = &five_column_transform;
+        };
         behaviors {
                 mo_tog: behavior_mo_tog {
                 compatible = "zmk,behavior-hold-tap";
