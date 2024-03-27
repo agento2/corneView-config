@@ -78,10 +78,10 @@
             //                    | GUI |     | SPC ||||| ENT |     | ALT |
 
             bindings = <
-  &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT               &kp CARET             &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-  &kp GRAVE  &trans  &trans    &kp SQT   &trans                  &kp MINUS             &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-  &kp TILDE  &trans  &trans    &trans    &trans                  &kp UNDER             &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
-                     &kp LGUI  &trans    &mt LEFT_SHIFT ENTER    &mt LEFT_SHIFT SPACE  &trans     &kp RALT
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                  &kp NUMBER_6          &kp N7            &kp N8         &kp N9      &kp N0
+  &kp GRAVE     &none         &none         &kp SQT       &none                   &kp MINUS             &kp EQUAL         &kp LBKT       &kp RBKT    &kp BSLH
+  &none         &none         &none         &none         &none                   &kp RIGHT_ALT         &kp LEFT_CONTROL  &kp COMMA      &kp PERIOD  &kp SQT
+                              &kp LGUI      &trans        &mt LEFT_SHIFT ENTER    &mt LEFT_SHIFT SPACE  &trans            &kp BACKSPACE
             >;
         };
 
